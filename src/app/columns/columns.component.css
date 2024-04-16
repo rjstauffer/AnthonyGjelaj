@@ -1,0 +1,47 @@
+.container-flex {
+    position: relative;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Split into thirds */
+    height: 53vh; /* Full viewport height */
+  }
+  
+  .left-column,
+  .middle-column,
+  .right-column {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 0%;
+    margin-top: 0%;
+  }
+  
+  .middle-column {
+    position: relative; /* Add positioning */
+  }
+  
+  .middle-column img {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align the image to the bottom */
+    width: 100%; /* Ensure the image fills the column width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .quote-container {
+    padding-left: 30px;
+
+  }
+
+  .bio-container {
+    padding-right: 30px;
+  }
+
+  .quote-text {
+    font-style: italic; /* Italicize the text */
+  }
+  
+  .contact-info {
+    font-weight: bold;
+  }

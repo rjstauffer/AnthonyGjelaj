@@ -1,0 +1,14 @@
+
+.container h1 {
+    color: #d3daf3; /* Adjust color as needed */
+    font-size: 142px; /* Adjust font size as needed */
+  
+    letter-spacing: 5px; 
+  }
+
+
+  .container {
+    margin: 0; /* Remove margins */
+    margin-left: 0;
+    margin-right: 0;
+  }

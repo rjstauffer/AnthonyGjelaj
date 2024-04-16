@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background: #ffffff;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

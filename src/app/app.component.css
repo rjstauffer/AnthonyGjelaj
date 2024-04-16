@@ -1,0 +1,85 @@
+.container-flex {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+app-name {
+  position: absolute;
+  top: 36%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-container {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; /* Adjust height as needed */
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.lower-container {
+
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  .lower-lower-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    padding: 0px; /* Add padding for spacing */
+  }
+
+  .left-content {
+    width: 800px; /* Take up available space */
+  }
+  
+  .photo {
+    width: 100%; /* Ensure photo fills its container */
+    max-width: 800px; /* Limit maximum width */
+    display: block; /* Ensure image is treated as a block element */
+  }
+  
+  .right-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px; /* Add spacing between buttons */
+    margin-right: 15%;
+    
+  }
+
+  .right-content p {
+    font-style: italic;
+  }
+  
+  .button {
+    padding: 10px 20px; /* Add padding for button */
+    background-color: #434344; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    text-align: center; /* Center text horizontally */
+  display: inline-block; 
+    border-radius: 0px; /* Add button border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    height: 40px; /* Adjust the height to match the other buttons */
+  width: 340px; 
+
+  background-color: #555; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+  }
+
+  .button:hover {
+    background-color: #333 !important; /* Darker background color on hover */
+    color: #fff !important; /* Change the text color on hover */
+  }
+  
